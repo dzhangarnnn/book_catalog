@@ -1,0 +1,74 @@
+.navbar {
+    background-color:#d3bb6c;
+    background-image: url('app/assets/background-navbar.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 165px;
+    @media (max-width: 434px){
+      background-image: url('app/assets/background-navbar-mobile.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 175px;
+    }
+  }
+  
+  .thead {
+    background-color: rgb(214, 210, 210)
+  }
+
+  .form-select {
+    width: 140px
+  }
+
+ .bookmark-card {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+ }
+
+ .bookmark-bookInfo {
+    position: absolute;
+    top:  180px;
+    right: 15px;
+ }
+
+ .img-bookInfo {
+    max-width:  250px;
+    max-height: 250px;
+ }
+ .btn-back {
+    position: absolute;
+    top:  170px;
+    left: 5px;
+    @media (max-width: 434px) {
+      margin-top: 10px;
+    }
+ }
+
+ .imgBookContainer {
+    background-image: url('app/assets/bookimg-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: 260px;
+ }
+
+ .descContainer {
+    background-color: #edf3f7
+ }
+
+ .dropMenu {
+    margin-left: -20px;
+ }
+
+ .navProfile {
+    @media (max-width: 298px) {
+      margin-top: 5px;
+    }
+    @media (min-width: 299px) and (max-width: 433px) {
+      margin-top: 10px;
+    }
+ }
+
+ 
+
+ 
